@@ -237,7 +237,7 @@ def main():
     sum_loss = {tcp: {1: [0.0]*(SIM_TIME+1), 2: [0.0]*(SIM_TIME+1)} for tcp in TCP_TYPES}
     runs_found = {tcp: 0 for tcp in TCP_TYPES}
 
-    # Optional: print the detected payload rule once per tcp (from seed 1 trace)
+    # Print the detected payload rule once per tcp (from seed 1 trace)
     printed_rule = set()
 
     for tcp in TCP_TYPES:
