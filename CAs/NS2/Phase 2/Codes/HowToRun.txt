@@ -1,0 +1,5 @@
+For each Scenario:
+
+ns main.tcl 1
+
+awk -f analysis.awk out_1.tr

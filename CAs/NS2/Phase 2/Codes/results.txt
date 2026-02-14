@@ -1,0 +1,29 @@
+(ns2-env) paria@paria-VMware-Virtual-Platform:~/Documents/UT/UT_ComputerEngineering/Term7/Networks/NS2_Phase2$ ns main.tcl 1
+
+(ns2-env) paria@paria-VMware-Virtual-Platform:~/Documents/UT/UT_ComputerEngineering/Term7/Networks/NS2_Phase2$ awk -f analysis.awk out_1.tr
+
+TCP Throughput (Mbps): 2.84466
+
+UDP Throughput (Mbps): 0
+
+Jain Fairness Index: 0.5
+
+(ns2-env) paria@paria-VMware-Virtual-Platform:~/Documents/UT/UT_ComputerEngineering/Term7/Networks/NS2_Phase2$ ns main.tcl 2
+
+(ns2-env) paria@paria-VMware-Virtual-Platform:~/Documents/UT/UT_ComputerEngineering/Term7/Networks/NS2_Phase2$ awk -f analysis.awk out_2.tr
+
+TCP Throughput (Mbps): 0.034576
+
+UDP Throughput (Mbps): 2.902
+
+Jain Fairness Index: 0.511913
+
+(ns2-env) paria@paria-VMware-Virtual-Platform:~/Documents/UT/UT_ComputerEngineering/Term7/Networks/NS2_Phase2$ ns main.tcl 3
+
+(ns2-env) paria@paria-VMware-Virtual-Platform:~/Documents/UT/UT_ComputerEngineering/Term7/Networks/NS2_Phase2$ awk -f analysis.awk out_3.tr
+
+TCP Throughput (Mbps): 1.58376
+
+UDP Throughput (Mbps): 1.3432
+
+Jain Fairness Index: 0.993291
